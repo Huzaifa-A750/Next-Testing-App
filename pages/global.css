@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.eot');
+  src: url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+  url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+  url('http://anthillrealtors.co.id/wp-content/themes/x-child/fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+}
+
+body {
+  background-color: white;
+  font-family: 'AvenirNextLTPro-Regular'!important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Avenir ExtraLight";
+  src: url("/public/fonts/Metropolis-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url("/public/fonts/Metropolis-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Avenir Regular";
+  src: url("/public/fonts/Metropolis-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("/public/fonts/Metropolis-Medium.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir Bold";
+  src: url("/public/fonts/Metropolis-Bold.ttf") format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Avenir ExtraBold";
+  src: url("/public/fonts/Metropolis-ExtraBold.ttf") format("ttf");
+  font-weight: 700;
+} */
+
+
+
+:hover.innershadow {
+  box-shadow: -2px 0px 10.4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 402px) and (max-width: 1200px) {
+  .section2 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .forms1 {
+    margin-top: 30px;
+  }
+
+  .forms2 {
+    max-width: 700px;
+  }
+
+  .forms3 {
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  .heading-1 {
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .section2 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .forms1 {
+    margin-top: 30px;
+  }
+
+  .forms2 {
+    width: 280px;
+  }
+
+  .forms3 {
+    max-width: 250px;
+    justify-content: center;
+  }
+}
